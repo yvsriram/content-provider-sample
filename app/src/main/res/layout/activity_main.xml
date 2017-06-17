@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.contentprovider.MainActivity"
+    android:orientation="vertical">
+    <Button
+        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14dp"
+        android:text="Insert"
+        android:id="@+id/insert"/>
+    <Button
+        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="14dp"
+        android:text="Insert sample data"
+        android:id="@+id/bulk_insert"/>
+    <Button
+        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="14dp"
+        android:text="Remove all"
+        android:id="@+id/remove_all"/>
+    <Button
+        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="14dp"
+        android:text="Remove by Id"
+        android:id="@+id/remove_id"/>
+    <Button
+        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="14dp"
+        android:text="Query all"
+        android:id="@+id/query_all"/>
+    <Button
+        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="14dp"
+        android:text="Query By Id"
+        android:id="@+id/query_id"/>
+    <Button
+        android:layout_height="48dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textSize="14dp"
+        android:text="Update"
+        android:id="@+id/update"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Items in the database:"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/textView"
+         />
+    </ScrollView>
+</LinearLayout>
